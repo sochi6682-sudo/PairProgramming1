@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\s_ochi\\source\\repos\\StubServer\\",
+  "WorkspaceRootPath": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3D5081F-5088-4D92-A675-173E589E7245}|..\\Client\\Client.csproj|c:\\users\\s_ochi\\source\\repos\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\s_ochi\\source\\repos\\Client\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D3EFF8E-7B50-43E0-90F7-869DBC9B6FE0}|StubServer.csproj|c:\\users\\s_ochi\\source\\repos\\stubserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D3EFF8E-7B50-43E0-90F7-869DBC9B6FE0}|StubServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\stubserver\\stubserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|solutionrelative:stubserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D3EFF8E-7B50-43E0-90F7-869DBC9B6FE0}|StubServer.csproj|c:\\users\\s_ochi\\source\\repos\\stubserver\\stubserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3D3EFF8E-7B50-43E0-90F7-869DBC9B6FE0}|StubServer.csproj|solutionrelative:stubserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\stubserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,25 +25,24 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StubServer",
-              "DocumentMoniker": "C:\\Users\\s_ochi\\source\\repos\\StubServer\\StubServer.csproj",
+              "DocumentIndex": 1,
+              "Title": "StubServer.csproj",
+              "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\StubServer.csproj",
               "RelativeDocumentMoniker": "StubServer.csproj",
-              "ToolTip": "C:\\Users\\s_ochi\\source\\repos\\StubServer\\StubServer.csproj",
+              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\StubServer.csproj",
               "RelativeToolTip": "StubServer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-05T00:58:59.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T00:58:59.289Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\s_ochi\\source\\repos\\Client\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Client\\Program.cs",
               "ToolTip": "C:\\Users\\s_ochi\\source\\repos\\Client\\Program.cs",
-              "RelativeToolTip": "..\\Client\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Client\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T00:58:37.693Z",
@@ -51,16 +50,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\s_ochi\\source\\repos\\StubServer\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\s_ochi\\source\\repos\\StubServer\\Program.cs",
+              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAwCwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T00:57:09.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T00:57:09.588Z"
             }
           ]
         }

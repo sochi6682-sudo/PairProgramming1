@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s_ochi\\source\\repos\\StubServer\\StubServer.csproj": {}
+    "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\StubServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s_ochi\\source\\repos\\StubServer\\StubServer.csproj": {
+    "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\StubServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s_ochi\\source\\repos\\StubServer\\StubServer.csproj",
+        "projectUniqueName": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\StubServer.csproj",
         "projectName": "StubServer",
-        "projectPath": "C:\\Users\\s_ochi\\source\\repos\\StubServer\\StubServer.csproj",
+        "projectPath": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\StubServer.csproj",
         "packagesPath": "C:\\Users\\s_ochi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s_ochi\\source\\repos\\StubServer\\obj\\",
+        "outputPath": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

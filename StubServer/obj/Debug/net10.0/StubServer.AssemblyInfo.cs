@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StubServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4abd12a95ac6d780563958fd3c64afcd95ffefd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("StubServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StubServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
