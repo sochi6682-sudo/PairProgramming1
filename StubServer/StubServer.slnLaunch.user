@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "新しいプロファイル",
+    "Projects": [
+      {
+        "Path": "..\\Client\\Client.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "StubServer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
