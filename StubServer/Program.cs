@@ -24,6 +24,7 @@ class Program
             listener.Start();
             logger.Info("外部公開起動");
             logger.Info("待ち受けURL=http://+:8080/");
+
         }
         catch (Exception ex)
         {
@@ -50,10 +51,15 @@ class Program
         while (true)
         {
             // 2. クライアントからの指示（POST）を待つ
+            logger.Info("リクエスト待機中");
+
             HttpListenerContext context = listener.GetContext();
+
+            logger.Info("リクエスト受信");
+
             HttpListenerRequest request = context.Request;
             HttpListenerResponse response = context.Response;
-            
+
             // 3. 送られてきた指示（JSON）を読み取る
             using var reader = new StreamReader(request.InputStream, request.ContentEncoding);//request.InputStreamをバイトから文字に変換
             string jsonString = reader.ReadToEnd(); //JSONの中身をすべてjsonStringに移す
