@@ -11,7 +11,11 @@ internal class Program
 
         var response = await client.GetAsync("http://localhost:8080/");
         string result = await response.Content.ReadAsStringAsync();
-        Console.WriteLine(result);
+
+        var analyzer = new DataAnalyzer();
+        ProductSummary results = analyzer.Analyzer(result);
+
+        Console.WriteLine(results.ErrorCount);
 
 
     }
