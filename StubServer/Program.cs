@@ -56,7 +56,7 @@ class Program
                         "productName": "Beer",
                         "value": 500,
                         "amount": 1200,
-                        "errorCode": ""
+                        "errorCode": null
                       },
                       {
                         "id": 2,
@@ -70,7 +70,7 @@ class Program
                         "productName": "Highball",
                         "value": 300,
                         "amount": 3000,
-                        "errorCode": ""
+                        "errorCode": null
                       },
                       {
                         "id": 4,
@@ -84,35 +84,35 @@ class Program
                         "productName": "JapaneseSake",
                         "value": 1500,
                         "amount": 200,
-                        "errorCode": ""
+                        "errorCode": null
                       },
                       {
                         "id": 6,
                         "productName": "Whiskey",
                         "value": 10000,
                         "amount": 10,
-                        "errorCode": ""
+                        "errorCode": null
                       },
                       {
                         "id": 7,
                         "productName": "Gin",
                         "value": 5000,
                         "amount": 20,
-                        "errorCode": ""
+                        "errorCode": null
                       },
                       {
                         "id": 8,
                         "productName": "Tequila",
                         "value": 3000,
                         "amount": 30,
-                        "errorCode": ""
+                        "errorCode": null
                       },
                       {
                         "id": 9,
                         "productName": "Rum",
                         "value": 2000,
                         "amount": 40,
-                        "errorCode": ""
+                        "errorCode": null
                       },
                       {
                         "id": 10,

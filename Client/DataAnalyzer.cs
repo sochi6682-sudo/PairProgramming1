@@ -37,8 +37,8 @@ namespace Client
                     return (
                         TotalValue: acc.TotalValue + (item.Value * item.Amount),
                         TotalCount: acc.TotalCount + 1,
-                        ErrorCount: acc.ErrorCount + (!string.IsNullOrEmpty(item.ErrorCode) ? 1 : 0),
-                        NormalCount: acc.NormalCount + (string.IsNullOrEmpty(item.ErrorCode) ? 1 : 0),
+                        ErrorCount: acc.ErrorCount + (item.ErrorCode != null ? 1 : 0),
+                        NormalCount: acc.NormalCount + (item.ErrorCode == null ? 1 : 0),
                         ErrorList: acc.ErrorList
                     );
                 }
