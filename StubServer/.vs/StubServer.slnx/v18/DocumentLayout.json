@@ -3,17 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\StubServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\y_nagano\\desktop\\practice\\pairprogramming1\\client\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\y_nagano\\desktop\\practice\\pairprogramming1\\client\\dataanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\y_nagano\\desktop\\practice\\pairprogramming1\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|c:\\users\\y_nagano\\desktop\\practice\\pairprogramming1\\stubserver\\stubserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|solutionrelative:stubserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|c:\\users\\y_nagano\\desktop\\practice\\pairprogramming1\\stubserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,69 +20,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DataAnalyzer.cs",
               "DocumentMoniker": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\DataAnalyzer.cs",
               "RelativeDocumentMoniker": "..\\Client\\DataAnalyzer.cs",
-              "ToolTip": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\DataAnalyzer.cs",
-              "RelativeToolTip": "..\\Client\\DataAnalyzer.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwCgAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\DataAnalyzer.cs*",
+              "RelativeToolTip": "..\\Client\\DataAnalyzer.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwDYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T04:13:33.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "nlog.config",
-              "DocumentMoniker": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\nlog.config",
-              "RelativeDocumentMoniker": "..\\Client\\nlog.config",
-              "ToolTip": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\nlog.config",
-              "RelativeToolTip": "..\\Client\\nlog.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-06-05T04:12:19.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\Program.cs",
               "RelativeDocumentMoniker": "..\\Client\\Program.cs",
               "ToolTip": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\Program.cs",
               "RelativeToolTip": "..\\Client\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAwAQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T04:09:21.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StubServer.csproj",
-              "DocumentMoniker": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\StubServer\\StubServer.csproj",
-              "RelativeDocumentMoniker": "StubServer.csproj",
-              "ToolTip": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\StubServer\\StubServer.csproj",
-              "RelativeToolTip": "StubServer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-05T00:58:59.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\StubServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\StubServer\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwHIAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\StubServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwDQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T00:57:09.588Z",
               "EditorCaption": ""
