@@ -8,47 +8,53 @@ namespace Client
 {
     public class DataAnalyzer
     {
-        public ProductSummary Analyzer(string jsonResponse) 
+        public ProductSummary Analyzer(string jsonResponse)
         {
             var options = new JsonSerializerOptions
             {
-                PropertyNameCaseInsensitive = true
+                PropertyNameCaseInsensitive = true  //大文字と小文字を区別せずに比較する
             };
 
-            List<ProductData> todoList = JsonSerializer.Deserialize<List<ProductData>>(jsonResponse, options);
+            List<ProductData> list = JsonSerializer.Deserialize<List<ProductData>>(jsonResponse, options);
 
-            var initialSeed = (
-            TotalValue: 0L,
-            TotalCount: 0,
-            ErrorCount: 0,
-            NormalCount: 0,
-            ErrorList: new List<ProductData>() // ループ中にエラー品をここに放り込む
+            //タプルでinitialに初期値をまとめる
+            var initial = (
+            TotalValue: 0L, //合計金額(初期値0円)
+            TotalCount: 0,  //全件数(初期値0件)
+            ErrorCount: 0,  //エラー件数(初期値0件)
+            NormalCount: 0, //正常件数(初期値0件)
+            ErrorList: new List<ProductData>() // エラー品をいれる
         );
 
-            var aggResult = todoList.Aggregate(
-                initialSeed,
-                (acc, item) => {
+            var aggResult = list.Aggregate(
+                initial,                  //初期値
+                (result, current) => {    //result = result + current 集計
                     // エラーがある場合はリストに追加
-                    if (item.ErrorCode != null)
+                    if (current.ErrorCode != null)
                     {
-                        acc.ErrorList.Add(item);
+                        result.ErrorList.Add(current);
                     }
 
+
+                    //=>の後に中括弧 { }がある場合はreturnが必要になる。
+                    //中括弧 { }が無い場合は自動でreturnされるため不要
                     return (
-                        TotalValue: acc.TotalValue + (item.Value * item.Amount),
-                        TotalCount: acc.TotalCount + 1,
-                        ErrorCount: acc.ErrorCount + (item.ErrorCode != null ? 1 : 0),
-                        NormalCount: acc.NormalCount + (item.ErrorCode == null ? 1 : 0),
-                        ErrorList: acc.ErrorList
+                        TotalValue: result.TotalValue + (current.Value * current.Amount),            //合計金額集計 合計金額 + (単価×数量)
+                        TotalCount: result.TotalCount + 1,                                     //全件数集計　合計件数 + 1件
+                        ErrorCount: result.ErrorCount + (current.ErrorCode != null ? 1 : 0),      //エラー件数集計　合計エラー件数 + (エラーで 1、正常で 0)
+                        NormalCount: result.NormalCount + (current.ErrorCode == null ? 1 : 0),    //正常件数集計　合計正常件数 + (正常で 1、エラーで 0)
+                        ErrorList: result.ErrorList                                            //エラーがあるデータ
                     );
                 }
             );
 
-            var top5 = todoList
-                .OrderByDescending(p => p.Value * p.Amount)
+            //リストを単価順に並び替えて上から5件取得
+            var top5 = list
+                .OrderByDescending(p => p.Value)
                 .Take(5)
                 .ToList();
 
+            //結果をrecordのProductSummary型で返す
             return new ProductSummary(
                 aggResult.TotalValue,
                 aggResult.TotalCount,
@@ -60,6 +66,7 @@ namespace Client
         }
     }
 
+    //集計データをrecordでまとめる
     public record ProductSummary(
         long TotalValue,
         int TotalCount,
