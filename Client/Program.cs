@@ -1,19 +1,38 @@
-﻿using System.Reflection.Metadata;
+﻿using NLog;
+using System.Reflection.Metadata;
 
 namespace Client;
 
 internal class Program
 {
+    private static readonly Logger logger = LogManager.GetCurrentClassLogger();
     static async Task Main(string[] args)
     {
         Console.WriteLine("クライアント起動 GET送信開始");
         HttpClient client = new HttpClient();
 
-        var response = await client.GetAsync("http://localhost:8080/");
-        string result = await response.Content.ReadAsStringAsync();
+        ProductSummary results;
 
-        var analyzer = new DataAnalyzer();
-        ProductSummary results = analyzer.Analyzer(result);
+        try
+        {
+            logger.Info("GET通信開始");
+
+            var response = await client.GetAsync("http://localhost:8080/");
+            logger.Info($"GET通信成功 StatusCode={(int)response.StatusCode}");
+
+            string result = await response.Content.ReadAsStringAsync();
+
+            var analyzer = new DataAnalyzer();
+            results = analyzer.Analyzer(result);
+        }
+        catch (Exception ex)
+        {
+            logger.Error(ex, "GET通信失敗");
+            return;
+        }
+
+
+
 
         // 集計結果の表示
         Console.WriteLine("=== 集計結果 ===");
