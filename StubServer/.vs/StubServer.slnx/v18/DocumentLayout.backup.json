@@ -3,8 +3,25 @@
   "WorkspaceRootPath": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\client\\dataanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\stubserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\stubserver\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|solutionrelative:nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\stubserver\\data\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|solutionrelative:data\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\stubserver\\server\\httpstubserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,18 +36,11 @@
       "RelativeMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\stubserver\\data\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|solutionrelative:data\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\stubserver\\stubserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{606BD79C-7F0A-036C-450F-8014A5C491E0}|StubServer.csproj|solutionrelative:stubserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\s_ochi\\documents\\github\\pairprogramming1\\client\\dataanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\DataAnalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -46,33 +56,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Controllers\\ProductController.cs*",
-              "RelativeToolTip": "Controllers\\ProductController.cs*",
-              "ViewState": "AgIAADMAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T05:37:23.517Z",
+              "DocumentIndex": 5,
+              "Title": "Client",
+              "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\Client\\Client.csproj",
+              "RelativeDocumentMoniker": "..\\Client\\Client.csproj",
+              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\Client\\Client.csproj",
+              "RelativeToolTip": "..\\Client\\Client.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-05T06:31:47.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "nlog.config",
+              "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\nlog.config",
+              "RelativeDocumentMoniker": "nlog.config",
+              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\nlog.config",
+              "RelativeToolTip": "nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-05T06:22:45.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Client\\Program.cs",
+              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\Client\\Program.cs*",
+              "RelativeToolTip": "..\\Client\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T05:54:09.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HttpStubServer.cs",
               "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Server\\HttpStubServer.cs",
               "RelativeDocumentMoniker": "Server\\HttpStubServer.cs",
-              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Server\\HttpStubServer.cs*",
-              "RelativeToolTip": "Server\\HttpStubServer.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAwAoAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Server\\HttpStubServer.cs",
+              "RelativeToolTip": "Server\\HttpStubServer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T05:28:06.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T05:28:06.809Z"
             },
             {
               "$type": "Document",
@@ -82,14 +117,14 @@
               "RelativeDocumentMoniker": "Data\\ProductData.cs",
               "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Data\\ProductData.cs",
               "RelativeToolTip": "Data\\ProductData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwGgAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T05:10:53.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -97,25 +132,24 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T05:10:01.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T05:10:01.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "DataAnalyzer.cs",
               "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\Client\\DataAnalyzer.cs",
               "RelativeDocumentMoniker": "..\\Client\\DataAnalyzer.cs",
               "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\Client\\DataAnalyzer.cs",
               "RelativeToolTip": "..\\Client\\DataAnalyzer.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T04:27:19.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "DataAnalyzer.cs",
               "DocumentMoniker": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\DataAnalyzer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\DataAnalyzer.cs",
@@ -126,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "nlog.config",
               "DocumentMoniker": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\nlog.config",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\nlog.config",
@@ -137,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\y_nagano\\Desktop\\Practice\\PairProgramming1\\Client\\Program.cs",
@@ -148,25 +182,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwAsAAABOAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T00:57:09.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T05:37:23.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "StubServer.csproj",
               "DocumentMoniker": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\StubServer.csproj",
               "RelativeDocumentMoniker": "StubServer.csproj",
-              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\StubServer.csproj*",
-              "RelativeToolTip": "StubServer.csproj*",
+              "ToolTip": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\StubServer.csproj",
+              "RelativeToolTip": "StubServer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-06-05T00:58:59.289Z",
