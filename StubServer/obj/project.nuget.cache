@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eCwApJYDIQc=",
+  "dgSpecHash": "yYmmDtox7yI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\y_nagano\\Desktop\\Practice\\PairProgramming1\\StubServer\\StubServer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\s_ochi\\Documents\\GitHub\\PairProgramming1\\StubServer\\StubServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s_ochi\\.nuget\\packages\\nlog\\6.1.3\\nlog.6.1.3.nupkg.sha512"
+  ],
   "logs": []
 }
