@@ -33,3 +33,8 @@ C:\Users\y_nagano\Desktop\Practice\PairProgramming1\Client\obj\Debug\net10.0\ref
 C:\Users\y_nagano\Desktop\Practice\PairProgramming1\Client\obj\Debug\net10.0\Client.pdb
 C:\Users\y_nagano\Desktop\Practice\PairProgramming1\Client\obj\Debug\net10.0\Client.genruntimeconfig.cache
 C:\Users\y_nagano\Desktop\Practice\PairProgramming1\Client\obj\Debug\net10.0\ref\Client.dll
+C:\Users\s_ochi\Documents\GitHub\PairProgramming1\Client\bin\Debug\net10.0\NLog.dll
+C:\Users\s_ochi\Documents\GitHub\PairProgramming1\Client\bin\Debug\net10.0\NLog.Extensions.Logging.dll
+C:\Users\s_ochi\Documents\GitHub\PairProgramming1\Client\bin\Debug\net10.0\NLog.Web.AspNetCore.dll
+C:\Users\s_ochi\Documents\GitHub\PairProgramming1\Client\obj\Debug\net10.0\Client.csproj.AssemblyReference.cache
+C:\Users\s_ochi\Documents\GitHub\PairProgramming1\Client\obj\Debug\net10.0\Client.csproj.Up2Date
