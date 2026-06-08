@@ -15,7 +15,7 @@ namespace Client
                 PropertyNameCaseInsensitive = true  //大文字と小文字を区別せずに比較する
             };
 
-            List<ProductData> list = JsonSerializer.Deserialize<List<ProductData>>(jsonResponse, options);
+            List<Product> list = JsonSerializer.Deserialize<List<Product>>(jsonResponse, options);
 
             //タプルでinitialに初期値をまとめる
             var initial = (
@@ -23,7 +23,7 @@ namespace Client
             TotalCount: 0,  //全件数(初期値0件)
             ErrorCount: 0,  //エラー件数(初期値0件)
             NormalCount: 0, //正常件数(初期値0件)
-            ErrorList: new List<ProductData>() // エラー品をいれる
+            ErrorList: new List<Product>() // エラー品をいれる
         );
 
             var aggResult = list.Aggregate(
@@ -72,7 +72,7 @@ namespace Client
         int TotalCount,
         int ErrorCount,
         int NormalCount,
-        List<ProductData> Top5Products,
-        List<ProductData> ErrorProducts
+        List<Product> Top5Products,
+        List<Product> ErrorProducts
     );
 }
