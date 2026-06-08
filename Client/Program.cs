@@ -26,16 +26,17 @@ internal class Program
             var analyzer = new DataAnalyzer();
             results = analyzer.Analyzer(result);
         }
-        catch (JsonException ex)
+
+        catch(JsonException ex)
         {
-            // 2. ファイルはあるが、JSONの形式やクラス構造がバグっている場合のエラー
             Console.WriteLine("JSON解析エラー");
             logger.Error(ex, "JSON解析エラー");
             return;
         }
+
         catch (Exception ex)
         {
-            Console.WriteLine("GET通信に失敗しました");
+            Console.WriteLine("通信に失敗しました");
             logger.Error(ex, "GET通信失敗");
             return;
         }
