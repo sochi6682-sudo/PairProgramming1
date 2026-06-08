@@ -1,5 +1,6 @@
 ﻿using NLog;
 using System.Reflection.Metadata;
+using System.Text.Json;
 
 namespace Client;
 
@@ -25,8 +26,17 @@ internal class Program
             var analyzer = new DataAnalyzer();
             results = analyzer.Analyzer(result);
         }
+
+        catch(JsonException ex)
+        {
+            Console.WriteLine("【JSON解析エラー】データの構造が一致していないか、破損しています。");
+            logger.Error(ex, "JSON解析エラー");
+            return;
+        }
+
         catch (Exception ex)
         {
+            Console.WriteLine("通信に失敗しました");
             logger.Error(ex, "GET通信失敗");
             return;
         }
