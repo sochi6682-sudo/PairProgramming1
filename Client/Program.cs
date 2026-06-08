@@ -18,13 +18,27 @@ internal class Program
         {
             logger.Info("GET通信開始");
 
-            var response = await client.GetAsync("http://localhost:8080/");
-            logger.Info($"GET通信成功 StatusCode={(int)response.StatusCode}");
+            Task<HttpResponseMessage> responseTask = client.GetAsync("http://localhost:8080/");
+            Task timeoutTask = Task.Delay(10000);
 
-            string result = await response.Content.ReadAsStringAsync();
+            Task completedTask = await Task.WhenAny(responseTask, timeoutTask);
 
-            var analyzer = new DataAnalyzer();
-            results = analyzer.Analyzer(result);
+            if (completedTask == timeoutTask)
+            {
+                Console.WriteLine("GET通信がタイムアウトしました");
+                logger.Error($"GET通信タイムアウト");
+                return;
+            }
+            else
+            {
+                HttpResponseMessage response = await responseTask;
+                logger.Info($"GET通信成功 StatusCode={(int)response.StatusCode}");
+
+                string result = await response.Content.ReadAsStringAsync();
+
+                var analyzer = new DataAnalyzer();
+                results = analyzer.Analyzer(result);
+            }
         }
 
         catch(JsonException ex)
@@ -40,9 +54,6 @@ internal class Program
             logger.Error(ex, "GET通信失敗");
             return;
         }
-
-
-
 
         // 集計結果の表示
         Console.WriteLine();
