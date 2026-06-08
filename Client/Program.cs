@@ -29,7 +29,7 @@ internal class Program
 
         catch(JsonException ex)
         {
-            Console.WriteLine("【JSON解析エラー】データの構造が一致していないか、破損しています。");
+            Console.WriteLine("JSON解析エラー");
             logger.Error(ex, "JSON解析エラー");
             return;
         }
