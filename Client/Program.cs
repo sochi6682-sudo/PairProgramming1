@@ -45,6 +45,7 @@ internal class Program
 
 
         // 集計結果の表示
+        Console.WriteLine();
         Console.WriteLine("=== 集計結果 ===");
         Console.WriteLine();
         Console.WriteLine($"全データ件数：{results.TotalCount}件");
@@ -62,16 +63,15 @@ internal class Program
         foreach (var item in results.Top5Products)
         {
             Console.WriteLine($"{item.ProductName} {item.Value}");
-            Console.WriteLine();
         }
         // エラーデータ一覧表示
+        Console.WriteLine();
         Console.WriteLine("=== エラーデータ一覧 ===");
         Console.WriteLine();
 
         foreach (var item in results.ErrorProducts)
         {
             Console.WriteLine($"ID:{item.Id} Product:{item.ProductName} Value:{item.Value} Error:{item.ErrorCode}");
-            Console.WriteLine();
         }
     }
 }
